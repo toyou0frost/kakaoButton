@@ -19,12 +19,12 @@ const createKakaoButton = () => {
         container: '#kakao-link-btn',
         objectType: 'feed',
         content: {
-        title: '타이틀',
-        description: '#리액트 #카카오 #공유버튼',
+        title: '한강 물 온도',
+        description: '#리액트 #한강물 한 모금 #한강물 온도',
         imageUrl: 'IMAGE_URL', // i.e. process.env.FETCH_URL + '/logo.png'
             link: {
-                mobileWebUrl: window.location.href,
-                webUrl: window.location.href,
+                mobileWebUrl: "https://butdory.github.io/hanriver-temp",
+                webUrl: "https://butdory.github.io/hanriver-temp",
             },},
             social: {
             likeCount: 77,
@@ -34,13 +34,13 @@ const createKakaoButton = () => {
             buttons: [{
             title: '웹으로 보기',
                 link: {
-                mobileWebUrl: window.location.href,
-                webUrl: window.location.href,
+                    mobileWebUrl: "https://butdory.github.io/hanriver-temp",
+                    webUrl: "https://butdory.github.io/hanriver-temp",
             },},{
             title: '앱으로 보기',
             link: {
-            mobileWebUrl: window.location.href,
-            webUrl: window.location.href,
+                mobileWebUrl: "https://butdory.github.io/hanriver-temp",
+                webUrl: "https://butdory.github.io/hanriver-temp",
 },},],})}}  
 
 return (
